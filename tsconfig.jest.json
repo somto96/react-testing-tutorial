@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        /*
+        With "react-jsx" we don't need to
+        import React from "react"; in every single 
+        component
+        */
+        "jsx": "react-jsx"
+    }
+}
