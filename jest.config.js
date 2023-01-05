@@ -12,5 +12,13 @@ module.exports = {
       },
     ],
   },
-  setupFilesAfterEnv: ['./src/setup-jest.ts'],
+  setupFilesAfterEnv: ["./src/setup-jest.ts"],
+  coverageThreshold: {
+    global: {
+      branches: 100,
+      functions: 100,
+      lines: 100,
+      statements: 100,
+    },
+  },
 };
